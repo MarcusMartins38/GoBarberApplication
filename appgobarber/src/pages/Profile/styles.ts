@@ -18,6 +18,11 @@ export const BackButton = styled.TouchableOpacity`
   margin-top: 40px;
 `;
 
+export const QuitButton = styled.TouchableOpacity`
+  margin-top: -25px;
+  margin-left: 85%;
+`;
+
 export const UserAvatarButton = styled.TouchableOpacity`
   margin-top: 32px;
 `;
