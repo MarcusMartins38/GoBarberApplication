@@ -75,5 +75,51 @@ describe('SignUp Page', () => {
       expect(mockedHistoryPush).not.toHaveBeenCalled();
     });
   });
+
+  it('should display an Success if register success', async () => {
+    const { getByPlaceholderText, getByText } = render(<SignUp />);
+
+    const nameField = getByPlaceholderText('Nome');
+    const emailField = getByPlaceholderText('E-mail');
+    const passwordField = getByPlaceholderText('Senha');
+    const buttonElement = getByText('Cadastrar');
+
+    fireEvent.change(nameField, { target: { value: 'John Doe' } });
+    fireEvent.change(emailField, { target: { value: 'johndoe@example.com' } });
+    fireEvent.change(passwordField, { target: { value: '123456' } });
+
+    fireEvent.click(buttonElement);
+
+    await wait(() => {
+      expect(mockedAddToast).toHaveBeenCalledWith(
+        expect.objectContaining({
+          type: 'success',
+        }),
+      );
+    });
+  });
+
+  it('should display an Error if register fails', async () => {
+    const { getByPlaceholderText, getByText } = render(<SignUp />);
+
+    const nameField = getByPlaceholderText('Nome');
+    const emailField = getByPlaceholderText('E-mail');
+    const passwordField = getByPlaceholderText('Senha');
+    const buttonElement = getByText('Cadastrar');
+
+    fireEvent.change(nameField, { target: { value: '' } });
+    fireEvent.change(emailField, { target: { value: 'not-valid-email' } });
+    fireEvent.change(passwordField, { target: { value: '123456' } });
+
+    fireEvent.click(buttonElement);
+
+    await wait(() => {
+      expect(mockedAddToast).toHaveBeenCalledWith(
+        expect.objectContaining({
+          type: 'error',
+        }),
+      );
+    });
+  });
   //
 });
