@@ -7,8 +7,8 @@
 ## Sumary
 [Intro](#intro) :door:  
 [How it works](#how-it-works) :open_book:  
-[How can I use ?](#how-can-i-use-) :open_book:  
-- [Steps](#steps) :open_book:  
+[Some of Thecnologies](#some-of-thecnologies) :computer:  
+[Step by step to use](#step-by-step-to-use) :open_book:  
 
 ## Intro
 
@@ -24,31 +24,64 @@ In the website of the application, you can register an account, receive and emai
 <p align="center">
 <img src="./.github/perfil.gif" width=750 align="center" />
 </p>
-
+  
 And in the mobile, you can see the appointments that your clients schedule with you, and you can schedule any appointment with another hair stylist
-
+  
 <p align="center">
 <img src="./.github/MobileGif.gif" width=250 height align="center" />
 </p>
 
 
 
-## How can I use ?
+## Some of Thecnologies
 
-You will need to have Node.js to run
-Postgres, mongodb, redis
+**Back-End (NodeJS with TypeScript): Postgres, mongodb, redis**  
+Some of the Libraries:
+- Express
+- typeorm
+- AWS
+- bcryptjs
+- celebrate  
+- cors
+- date-fns
 
-### Steps
+**Front-End (ReactJS with TypeScript)**  
+Some of the Libraries:
+- axios
+- date-fns
+- polished
+- react-day-picker
+- react-icons
+- react-router-dom
+- styled-components
+- yup
+- @unform/core @unform/web
 
-git clone https://github.com/MarcusMartins38/GoBarberApplication.git </br>
-  or</br>
-git clone git@github.com:MarcusMartins38/GoBarberApplication.git
+**Mobile (React Native with TypeScript)**  
+I used similar libraries
 
-yarn (Maybe you need to enter each folder and run this command)
+## Step by step to use
 
-cd backend
+With Yarn
+```
+$ git clone https://github.com/MarcusMartins38/GoBarberApplication.git
+$ cd GoBarberApplication/backend
+$ yarn
+$ yarn dev:server
+$ cd GoBarberApplication/frontend or cd GoBarberApplication/appgobarber
+$ yarn
+$ yarn start
+```
+With Npm
 
-yarn dev:server
+```
+$ git clone https://github.com/MarcusMartins38/GoBarberApplication.git
+$ cd GoBarberApplication/backend
+$ npm install
+$ npm dev:server
+$ cd GoBarberApplication/frontend or cd GoBarberApplication/appgobarber
+$ npm install
+$ npm start
+```
 
-(Now you can run, yarn start in frontend and in the appgobarber, that is the mobile).
 
