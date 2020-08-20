@@ -1,5 +1,7 @@
 # GoBarberApplication
 
+#### Languages: English or <a href="https://github.com/MarcusMartins38/GoBarberApplication/blob/master/README-pt.md">Português<a/>  
+
 <p align="center">
 <img src="./.github/LogIn.png" width=550 align="center" />
 </p>
