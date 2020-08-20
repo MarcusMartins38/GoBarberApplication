@@ -9,7 +9,6 @@
 [How it works](#how-it-works) :open_book:  
 [How can I use ?](#how-can-i-use-) :open_book:  
 - [Steps](#steps) :open_book:  
-[Accessing the Deploy](#or-you-can-access-the-deploy) :computer:
 
 ## Intro
 
