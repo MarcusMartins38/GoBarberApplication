@@ -1,6 +1,6 @@
 # GoBarberApplication
 
-#### Linguagens: <a href="https://github.com/MarcusMartins38/GoBarberApplication">Inglês<a/> ou Português
+#### Linguagens: <a href="https://github.com/MarcusMartins38/GoBarberApplication">English<a/> ou Português
 
 <p align="center">
 <img src="./.github/LogIn.png" width=550 align="center" />
