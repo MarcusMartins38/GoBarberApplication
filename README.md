@@ -64,6 +64,9 @@ I used similar libraries
 
 ## Step by step to use
 
+**PS:** You need to have Postgres, MongoDB and Redis
+
+
 With Yarn
 ```
 $ git clone https://github.com/MarcusMartins38/GoBarberApplication.git
