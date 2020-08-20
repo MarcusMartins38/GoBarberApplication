@@ -21,7 +21,7 @@ GoBarber is a application to schedule an appointment with a hair stylist, and th
 - React Native for mobile.
 
 ## How it works
-In the website of the application, you can register an account, receive and email if you forgot the password, see your perfil, change your photo, and some another's informations of your profile
+In the website of the application, you can register an account, receive an email if you forgot the password, see your perfil, change your photo, and some another's informations of your profile
 
 <p align="center">
 <img src="./.github/perfil.gif" width=750 align="center" />
