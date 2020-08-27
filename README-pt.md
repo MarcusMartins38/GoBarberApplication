@@ -47,6 +47,7 @@ Algumas das bibliotecas utilizadas:
 - celebrate  
 - cors
 - date-fns
+- jest
 
 **Front-End (ReactJS com TypeScript)**  
 Algumas das bibliotecas utilizadas:
@@ -59,6 +60,7 @@ Algumas das bibliotecas utilizadas:
 - styled-components
 - yup
 - @unform/core @unform/web
+- react testing library / react-hooks-testing-library
 
 **Mobile (React Native com TypeScript)**  
 Utilizei bibliotecas semelhantes ao Front-End
