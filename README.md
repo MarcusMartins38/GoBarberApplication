@@ -46,6 +46,7 @@ Some of the Libraries:
 - celebrate  
 - cors
 - date-fns
+- jest
 
 **Front-End (ReactJS with TypeScript)**  
 Some of the Libraries:
@@ -58,6 +59,7 @@ Some of the Libraries:
 - styled-components
 - yup
 - @unform/core @unform/web
+- react testing library / react-hooks-testing-library
 
 **Mobile (React Native with TypeScript)**  
 I used similar libraries
